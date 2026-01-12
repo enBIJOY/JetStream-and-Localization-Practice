@@ -5,6 +5,7 @@
       <a class="navbar-brand d-lg-none d-block" href="{{route('home')}}">
         <h4 class="h3 mb-0">Rappo</h4>
       </a>
+
       <!-- Toggler -->
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
         aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -12,7 +13,7 @@
       </button>
 
       <!-- Collapse -->
-      <div class="collapse navbar-collapse has-dropdown" id="navbarCollapse">
+      <div class="container collapse navbar-collapse has-dropdown" id="navbarCollapse">
         <!-- Links -->
         <ul class="navbar-nav ">
           </li>
@@ -53,7 +54,9 @@
         <ul class="ml-lg-auto list-unstyled m-0">
           <li><a href="{{route('contact')}}" class="btn btn-white btn-circled">Get a quote</a></li>
         </ul>
-      </div> <!-- / .navbar-collapse -->
+      </div> 
+      <!-- / .navbar-collapse -->
     </nav>
-  </div> <!-- / .container -->
+  </div> 
+  <!-- / .container -->
 </div>

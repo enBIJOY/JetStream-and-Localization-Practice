@@ -59,7 +59,7 @@
                 </div>
                 <div class="col-lg-4 col-sm-6 col-md-6">
                     <div class="process-block">
-                        <img src="images/process/process-3.jpg" alt="" class="img-fluid">
+                        <img src="{{asset('rappo/images/process/process-3.jpg')}}" alt="" class="img-fluid">
 
                         <h3>Development & delivery</h3>
                         <p>Nihil facere delectus eaque aut possimus nobis laudantium reprehenderit.</p>
@@ -90,7 +90,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="blog-box">
                         <div class="blog-img-box">
-                            <img src="images/blog/blog-1.jpg" alt="" class="img-fluid blog-img">
+                            <img src="{{asset('rappo/images/blog/blog-1.jpg')}}" alt="" class="img-fluid blog-img">
                         </div>
                         <div class="single-blog">
                             <div class="blog-content">

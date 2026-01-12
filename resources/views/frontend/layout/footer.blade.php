@@ -48,7 +48,6 @@
          </div>
        </div>
 
-
        <div class="col-lg-2 col-sm-6">
          <div class="footer-widget">
            <h3>About</h3>
@@ -74,7 +73,6 @@
                 Recent Projects
                </a>
              </li>
-
              <li>
                <a href="contact.html">
                  Contact
@@ -103,7 +101,6 @@
          </div>
        </div>
      </div> <!-- / .row -->
-
 
      <div class="row text-right pt-5">
        <div class="col-lg-12">
