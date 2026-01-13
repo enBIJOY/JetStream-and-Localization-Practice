@@ -7,14 +7,14 @@
         <div class="col-md-6 col-lg-4">
             <div class="card shadow-sm">
                 <div class="card-body p-4">
-                    <h4 class="text-center mb-1">Login</h4>
+                    <h2 class="text-center mb-1 text-danger">Login</h2>
 
                     <form method="POST" action="{{ route('login') }}">
                         @csrf
 
                         <!-- Email -->
                         <div class="mb-3">
-                            <label for="email" class="form-label">Email address</label>
+                            <label for="email" class="form-label">Email address <span style=color:red;>*</span></label>
                             <input
                                 type="email"
                                 id="email"
@@ -33,7 +33,7 @@
 
                         <!-- Password -->
                         <div class="mb-3">
-                            <label for="password" class="form-label">Password</label>
+                            <label for="password" class="form-label">Password <span style=color:red;>*</span></label>
                             <input
                                 type="password"
                                 id="password"
