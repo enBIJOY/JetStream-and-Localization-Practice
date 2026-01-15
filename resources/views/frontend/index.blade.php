@@ -18,7 +18,7 @@
 
                         <!-- Subheading -->
                         <p class="lead mb-4">
-                           Rappo is set of landing and support pages aimed at helping companies promote new products and business launches.
+                           {{__('Rappo is set of landing and support pages aimed at helping companies promote new products and business launches.')}}
                         </p>
 
                         <!-- Button -->
