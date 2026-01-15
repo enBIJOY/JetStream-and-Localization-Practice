@@ -15,8 +15,28 @@
             <li class="list-inline-item"><a href="#!"> <i class="fab fa-twitter"></i></a></li>
             <li class="list-inline-item"><a href="#!"> <i class="fab fa-pinterest-p"></i></a></li>
             <li class="list-inline-item"><a href="#!"> <i class="fab fa-linkedin"></i></a></li> -->
-            <li class="list-inline-item"><a href="{{route('login')}}"> <i class="bi bi-person"></i>Login</a></li>
-            <li class="list-inline-item"><a href="{{route('register')}}"> <i class="fab fa-register"></i>Register</a></li>
+            <li class="list-inline-item"><a href="{{route('login')}}"> <i class="bi bi-person"></i>{{ __("Login") }}</a></li>
+            <li class="list-inline-item"><a href="{{route('register')}}"> <i class="fab fa-register"></i>{{ __("Register") }}</a>
+            </li>
+            <li class="list-inline-item">
+              <a>
+                <div class="dropdown">
+                  <button class="btn btn-secondary btn-sm dropdown-toggle p-1" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    @if(Session()->get('locale') == 'english')
+                      En
+                      <img src="{{ asset('rappo/images/flag/united-states.png') }}" alt="English Flag" style="width: 20px; height: 20px;" />
+                    @else
+                      Bn
+                      <img src="{{ asset('rappo/images/flag/bangladesh.png') }}" alt="bangla Flag" style="width: 20px; height: 20px;" />
+                    @endif
+                  </button>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="{{ route('locale', 'bangla') }}"><img src="{{ asset('rappo/images/flag/bangladesh.png') }}" alt="bangla Flag" style="width: 20px; height: 20px;" /> Bengali</a>
+                    <a class="dropdown-item" href="{{ route('locale', 'english') }}"><img src="{{ asset('rappo/images/flag/united-states.png') }}" alt="English Flag" style="width: 20px; height: 20px;" /> English</a>
+                  </div>
+                </div>
+              </a>
+            </li>
           </ul>
         </div>
       </div>

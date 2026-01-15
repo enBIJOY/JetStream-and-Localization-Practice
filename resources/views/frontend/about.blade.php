@@ -28,12 +28,12 @@
                     <div class="section-heading">
                         <!-- Heading -->
                         <h2 class="section-title">
-                            Localization Check Purpose
+                            {{__('Localization Check Purpose')}}
                         </h2>
 
                         <!-- Subheading -->
                         <p>
-                            Localization Check PurposeLocalization Check PurposeLocalization Check PurposeLocalization Check PurposeLocalization Check Purpose
+                            {{__('Localization Check PurposeLocalization Check PurposeLocalization Check PurposeLocalization Check PurposeLocalization Check Purpose')}}
                         </p>
 
                     </div>
@@ -75,7 +75,7 @@
                     <div class="section-heading">
                         <!-- Heading -->
                         <h2 class="section-title">
-                            Read our latest news
+                            {{__('Localization Check Purpose')}}
                         </h2>
 
                         <!-- Subheading -->

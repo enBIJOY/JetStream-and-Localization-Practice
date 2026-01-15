@@ -18,6 +18,11 @@ Route::get('/', function () {
     return view('frontend.index');
 });
 
+Route::get('locale/{locale}', function($locale){ 
+    Session(['locale' => $locale]); 
+    return back();
+    })->name('locale');
+
 Route::middleware([
     'auth:sanctum',
     config('jetstream.auth_session'),

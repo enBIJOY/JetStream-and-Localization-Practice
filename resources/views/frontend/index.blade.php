@@ -13,7 +13,7 @@
                     <div class="main-banner">
                         <!-- Heading -->
                         <h1 class="display-4 mb-4 font-weight-normal">
-                            Industry Leading Managed Services Solutions
+                            {{__('Industry Leading Managed Services Solutions')}}
                         </h1>
 
                         <!-- Subheading -->
@@ -40,7 +40,7 @@
     </section>
 
     <div class='container'>
-        <h1>This is a H1 ( Localization Happen?)</h1> 
+        <h1>{{ __('This is a H1 ( Localization Happen?)')}}</h1> 
     </div>
 
 
